@@ -30,61 +30,70 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.391" />
 
+
     <EditText
         android:id="@+id/etTimeInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="@string/enter_time_e_g_morning"
+        android:layout_marginHorizontal="40dp"
         android:ems="10"
+        android:hint="@string/enter_time_e_g_morning"
         android:inputType="text"
         android:minHeight="48dp"
-        android:layout_marginHorizontal="40dp"
-        android:layout_marginTop="30dp"
         app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_marginHorizontal="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.055" />
+        app:layout_constraintVertical_bias="0.23"
+        app:layout_marginHorizontal="40dp" />
 
     <Button
         android:id="@+id/btnGetSpark"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:backgroundTint="#B61F6E"
         android:text="@string/get_my_social_spark"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#E6FAF7"
-        app:layout_constraintEnd_toEndOf="@id/etTimeInput"
-        app:layout_constraintStart_toStartOf="@+id/etTimeInput"
-        app:layout_constraintTop_toBottomOf="@+id/etTimeInput"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135"
         app:layout_goneMarginTop="20dp" />
 
     <TextView
         android:id="@+id/tvResultDisplay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:layout_marginEnd="48dp"
         android:text="@string/suggestion_will_appear_here"
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartof="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnGetSpark" />
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
 
     <Button
         android:id="@+id/btnReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/reset"
         android:layout_marginTop="16dp"
+        android:backgroundTint="#B61F6E"
+        android:text="@string/reset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnGetSpark" />
+        app:layout_constraintTop_toBottomOf="@id/btnGetSpark"
+        app:layout_constraintVertical_bias="0.43" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
