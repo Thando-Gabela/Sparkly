@@ -11,8 +11,8 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="205dp"
+        android:layout_height="91dp"
         android:layout_marginTop="32dp"
         android:fontFamily="cursive"
         android:shadowColor="#000000"
@@ -74,5 +74,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartof="parent"
         app:layout_constraintTop_toBottomOf="@id/btnGetSpark" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnGetSpark" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
