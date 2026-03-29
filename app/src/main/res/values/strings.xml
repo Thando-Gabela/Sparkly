@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Sparkly</string>
+    <string name="sparkly">Sparkly</string>
+    <string name="enter_time_e_g_morning">Enter time (e.g., Morning)</string>
+    <string name="get_my_social_spark">Get My Social Spark</string>
+    <string name="suggestion_will_appear_here">Suggestion will appear here</string>
 </resources>
