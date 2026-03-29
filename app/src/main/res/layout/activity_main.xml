@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/sparkle_bg">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="cursive"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="Sparkly"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <EditText
+        android:id="@+id/etTimeInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter time (e.g., Morning)"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_marginHorizontal="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <Button
+        android:id="@+id/btnGetSpark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B61F6E"
+        android:text="Get My Social Spark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#E6FAF7"
+        app:layout_constraintEnd_toEndOf="@id/etTimeInput"
+        app:layout_constraintStart_toStartOf="@+id/etTimeInput"
+        app:layout_constraintTop_toBottomOf="@+id/etTimeInput"
+        app:layout_goneMarginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tvResultDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="84dp"
+        android:text="Suggestion will appear here..."
+        android:textColorHighlight="#EFEDED"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartof="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnGetSpark" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
