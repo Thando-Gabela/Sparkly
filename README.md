@@ -1,13 +1,17 @@
 # Sparkly
-✨ Social Spark App
-Honestly, life is boring, so I made this app to tell you what to do. You type in the time of day, hit the button, and it gives you a social suggestion so you don't have to rot in your room.
+✨ Social Spark: Because Rotting in Bed is a Choice
+Imagine an app that actually tells you what to do with your life. I built Social Spark because deciding where to go at 3 PM shouldn't be a mental breakdown. This is a Kotlin-powered solution for the socially indecisive.
 
-🛠️ Features
-Smart Logic: Uses Kotlin if-else magic to figure out your vibe.
+🛠️ The Tech Stack (aka My Villains)
+Kotlin: My current best friend/worst enemy.
 
-Reset Button: Because sometimes we need a do-over.
+XML & ConstraintLayout: Because I refuse to have a messy UI.
 
-Aesthetic UI: Built with ConstraintLayout so it doesn't look like it's from 2005.
+GitHub Actions: Automated CI so I don't have to manually check if my code is crying.
 
-💅🏽How to Run
-Clone this, open it in Android Studio, and pray the Gradle sync works (it usually does if you're nice to it).
+⚡ Top-Tier Features
+Vibe-Check Logic: Uses a robust if-else chain to match your energy to the clock.
+
+The Panic Button (Reset): For when you need to wipe the screen and start your social life over.
+
+Responsive Design: Optimized for people who actually use their phones.
